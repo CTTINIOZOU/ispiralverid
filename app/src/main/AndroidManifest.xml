@@ -22,9 +22,9 @@
         </activity>
         <meta-data
             android:name="com.ispiral.client_id"
-            android:value="netInfoClient" />
+            android:value="Your Client Id" />
         <meta-data
             android:name="com.ispiral.client_secret"
-            android:value="ce6f037a-8d1b-43c0-ad36-bddf5dad2e51" />
+            android:value="Your Client Secret" />
     </application>
 </manifest>
