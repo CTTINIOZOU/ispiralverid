@@ -20,11 +20,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LivenessTesting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DocumentVerification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <meta-data
             android:name="com.ispiral.client_id"
-            android:value="Your Client Id" />
+            android:value="CLIENT_ID_HERE" />
         <meta-data
             android:name="com.ispiral.client_secret"
-            android:value="Your Client Secret" />
+            android:value="CLIENT_SECRET HERE" />
     </application>
 </manifest>
