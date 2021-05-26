@@ -13,7 +13,7 @@
 2. To include the SDK in your iOS project install CocoaPods and add the following pod spec in your project's Podfile:
 
 	~~~groovy
-    pod 'iSpiral-UI', '1.9.0'
+    pod 'iSpiral-UI', '1.21.5'
 	~~~
 
 3. You can now open **MyProject.xcworkspace** in **Xcode** and Ver-ID will be available to use in your app **MyApp**.
@@ -93,7 +93,7 @@ class MyViewController: UIViewController, VerIDFactoryDelegate, VerIDSessionDele
 	
 	~~~groovy
     dependencies {
-	    implementation 'com.ispiral.verid:ui:1.7.6'
+	    implementation 'com.ispiral.verid:ui:1.21.5'
     }
 	~~~
 2. Add RenderScript in your **gradle.build** file:
